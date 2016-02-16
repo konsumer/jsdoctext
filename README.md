@@ -11,3 +11,11 @@ import fs from 'fs'
 console.log(jsdoctext(fs.readFileSync('word.doc','utf8').toString()))
 ```
 
+Or like this in ES5:
+
+```js
+var jsdoctext = require('jsdoctext')
+var fs = require('fs')
+
+console.log(jsdoctext(fs.readFileSync('word.doc','utf8').toString()))
+```
