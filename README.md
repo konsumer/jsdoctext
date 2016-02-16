@@ -8,6 +8,6 @@ Use it like this (in ES6) after `npm install --save jsdoctext`:
 import jsdoctext from 'jsdoctext'
 import fs from 'fs'
 
-console.log(jsdoctext(fs.readFileSync('word.doc','utf8')))
+console.log(jsdoctext(fs.readFileSync('word.doc','utf8').toString()))
 ```
 
