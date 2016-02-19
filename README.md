@@ -2,6 +2,10 @@
 
 A pure javascript port of [catdoc](https://www.wagner.pp.ru/~vitus/software/catdoc/)
 
+**NOT COMPLETE**
+
+I'm working on it. STay tuned.
+
 Use it like this (in ES6) after `npm install --save jsdoctext`:
 
 ```js
